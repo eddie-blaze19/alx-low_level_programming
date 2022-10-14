@@ -1,7 +1,9 @@
 #include <stdio.h>
-/**
-* this c program starts with the main function to
-* print using the puts function.
+/** 
+* main - Prints "Programming is like building a multilingual 
+* puzzle, followed by a new line. 
+*  
+* Return: Always 0. 
 */
 int main(void)
 {
