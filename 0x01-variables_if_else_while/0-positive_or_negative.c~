@@ -1,0 +1,25 @@
+#include <stdio.h>
+/**
+*Description: main - function uses rand function,
+*to find a value for n
+*
+*Return: a zero val
+*/
+int main(void)
+{
+int RAND_MAX = 100;
+int n = rand() - RAND_MAX / 2;
+if (n > 0)
+{
+printf("%d is positive\n", n);
+}
+else if (n < 0)
+{
+printf("%d is negative\n", n);
+}
+else
+{
+printf("%d is zero\n", n);
+}
+return (0);
+}
