@@ -14,13 +14,3 @@ _putchar(ch);
 }
 _putchar('\n');
 }
-/**
-* Description: main - This is the start of the program
-*
-* Return: the return value is 0
-*/
-int main(void)
-{
-print_alphabet();
-return (0);
-}
