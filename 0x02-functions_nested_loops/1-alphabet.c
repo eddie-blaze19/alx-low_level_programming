@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "1-main.c"
 /**
 * Description: print_alphabet - loop function program
 *
@@ -6,10 +7,10 @@
 */
 void print_alphabet(void)
 {
-char ch;
-for (int ch = 'a'; ch <= 'z'; ch++)
+int i;
+for (i = 97 ; i <= 122 ; i++)
 {
-putchar(ch);
+putchar(i);
 }
 }
 /**
