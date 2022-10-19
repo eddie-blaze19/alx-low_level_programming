@@ -21,6 +21,6 @@ return (1);
 else
 {
 _putchar('+');
-return (1);
+return (-1);
 }
 }
