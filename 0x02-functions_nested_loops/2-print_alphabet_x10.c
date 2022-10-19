@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 * Description: print_alphabet_x10 - loop function program
 *
@@ -15,14 +16,4 @@ putchar(ch);
 }
 putchar('\n');
 }
-}
-/**
-* Description: main - This is the start of the program
-*
-* Return: the return value is 0
-*/
-int main(void)
-{
-print_alphabet_x10();
-return (0);
 }
